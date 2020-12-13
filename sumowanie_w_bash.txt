@@ -1,0 +1,2 @@
+#!/bin/bash
+cat slodycze/produkty.txt mleczne/produkty.txt |cut -d',' -f2|  paste -s -d+ - | bc
